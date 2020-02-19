@@ -1,0 +1,52 @@
+.container {
+  background-color: rgb(244, 254, 255);
+  width: 100%;
+}
+.choice {
+  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 600;
+  word-break: break-all;
+  display: inline-block;
+  width: 70%;
+}
+.f {
+  box-shadow: -10px -10px 10px gray;
+}
+.s {
+  box-shadow: 10px -10px 10px gray;
+}
+.text {
+  font-weight: 600;
+  font-size: 20px;
+  animation: fadein 1s;
+}
+td {
+  text-align: center;
+  line-height: 1.6;
+}
+.hide {
+  display: none;
+}
+.active {
+  display: block;
+}
+.check {
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+}
+.check-active {
+  animation: fadein 0.5s;
+  opacity: 1;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
