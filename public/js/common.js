@@ -152,8 +152,10 @@ const makeTable = arr => {
   document.getElementsByTagName("header")[0].innerHTML = html;
   document.getElementById("audio").style.display = "none";
 };
-makeTable(staticData);
-changeSize();
+document.getElementById("audio").addEventListener("play", () => {
+  makeTable(staticData);
+  changeSize();
+});
 /* const submit = () => {
   let arr = [];
   let qs = questCon.getElementsByClassName("question");
