@@ -1,6 +1,6 @@
 let staticData = [
   {
-    question: "?",
+    question: "지금 할 수 있다면?",
     answer1: "셀모임",
     answer2: "축구"
   },
@@ -16,8 +16,8 @@ let staticData = [
   },
   {
     question: "수련회에서 했으면 하는것은?",
-    answer1: "오래도록 기도하기",
-    answer2: "오래도록 찬양하기"
+    answer1: "밤새도록 기도하기",
+    answer2: "밤새도록 찬양하기"
   },
   {
     question: "새가족팀 하면 떠오르는 것은?",
@@ -30,9 +30,9 @@ let staticData = [
     answer2: "말씀"
   },
   {
-    question: "만약 밥 한끼 식사를 같이 할수 있다면?",
-    answer1: "바울",
-    answer2: "베드로"
+    question: "식사 같이 하고 싶은 사람은?",
+    answer1: "박종욱",
+    answer2: "정효진"
   },
   {
     question: "만약 성경의 기적을 볼수 있다면?",

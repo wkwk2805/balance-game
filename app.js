@@ -8,5 +8,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("연결성공");
+  console.log("Connect 3000port!!");
 });
