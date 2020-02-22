@@ -1,8 +1,8 @@
 let staticData = [
   {
     question: "지금 할 수 있다면?",
-    answer1: "셀모임",
-    answer2: "축구"
+    answer1: "새벽기도회",
+    answer2: "수련회"
   },
   {
     question: "정착하는데 영향을 준 곳은?",
